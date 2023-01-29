@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hidup Sehat</string>
+    <string name="riwayat_kegiatan">Riwayat Kegiatan</string>
+    <string name="rabu_15_desember_2021">Rabu, 15 Desember 2021</string>
+    <string-array name="item_makanan">
+        <item>Nasi Putih</item>
+        <item>Nasi Merah</item>
+        <item>Paha ayam</item>
+        <item>Dada ayam</item>
+        <item>Ikan</item>
+        <item>Cumi-cumi</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

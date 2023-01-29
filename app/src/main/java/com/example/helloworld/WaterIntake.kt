@@ -92,18 +92,5 @@ class WaterIntake : AppCompatActivity() {
         }
     }
 
-    fun onBd(view: View) {
-        var total = minum.text.toString().toDouble()
-        minum.setText("${total + 13.52}")
-        minum.setText(String.format("%.2f", total + 13.52))
-        var baik = ideal.text.toString().toDouble()
-        var goals = target.text.toString().toDouble()
-        if (minum.text.toString().toDouble() <= ideal.text.toString()
-                .toFloat() && sisa.text.toString().toDouble() >= 13.52
-        ) {
-            sisa.setText("${goals - minum.text.toString().toDouble()}")
-        } else {
-            sisa.setText("${0}")
-        }
-    }
+
 }

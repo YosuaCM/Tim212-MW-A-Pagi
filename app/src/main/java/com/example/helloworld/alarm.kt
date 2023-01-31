@@ -86,5 +86,6 @@ class alarm : AppCompatActivity() {
             cal.get(Calendar.MINUTE),
             true
         ).show() }
+
     }
 }

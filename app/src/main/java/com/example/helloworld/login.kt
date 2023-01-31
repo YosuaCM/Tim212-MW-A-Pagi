@@ -26,11 +26,7 @@ class login : AppCompatActivity() {
         startActivity(intentReply)
     }
 
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-        outState.putString("nama",nama.text.toString())
-        outState.putString("berat",berat.text.toString())
-    }
+    
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
         super.onRestoreInstanceState(savedInstanceState)

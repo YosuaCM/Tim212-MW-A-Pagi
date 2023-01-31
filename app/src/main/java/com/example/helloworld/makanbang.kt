@@ -11,7 +11,8 @@ class makanbang : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_makanbang)
 
-        
+        val adapter = ArrayAdapter.createFromResource(this, R.array.item_makanan, android.R.layout.simple_spinner_dropdown_item)
+        jenisMakanan.adapter = adapter
     }
     fun onSaveMakan(view: View) {
 

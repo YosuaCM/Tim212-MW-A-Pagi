@@ -25,7 +25,7 @@ class login : AppCompatActivity() {
         var intentReply = Intent(this, MainActivity::class.java)
         startActivity(intentReply)
     }
-    
+
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putString("nama",nama.text.toString())
